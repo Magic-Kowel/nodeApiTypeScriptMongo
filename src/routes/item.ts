@@ -9,9 +9,9 @@ import {
 import { logMiddleware } from "../middleware/log";
 const router = Router();
 
-router.get('/',getItems);
-router.get('/:id',logMiddleware,getItem);
-router.post('/',postItem);
-router.put('/:id',updateItem);
-router.delete('/:id',deleteItem);
+router.get('/item',getItems);
+router.get('/item/:id',logMiddleware,getItem);
+router.post('/item',postItem);
+router.put('/item/:id',updateItem);
+router.delete('/item/:id',deleteItem);
 export {router};

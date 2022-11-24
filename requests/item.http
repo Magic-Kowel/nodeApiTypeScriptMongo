@@ -1,4 +1,4 @@
-@api = http://localhost:3002/
+@api = http://localhost:3002/item/
 
 POST {{api}}
 Content-Type: application/json
@@ -12,11 +12,11 @@ Content-Type: application/json
     "price":25000
 }
 ###
-PUT  {{api}}637c5aaf1012b04ff3878842
+PUT  {{api}}637eee7f9dd98093f0fb7d65
 Content-Type: application/json
 
 {
-    "name":"josue MAGICO",
+    "name":"josue item",
     "color":"rojo",
     "gas":"gasoline",
     "year":2022,
@@ -27,7 +27,7 @@ Content-Type: application/json
 GET  {{api}}
 ###
 
-GET {{api}}637c5fb7e701be2da8580ef4
+GET {{api}}637eee7f9dd98093f0fb7d65
 
 ###
-DELETE {{api}}637c5fb7e701be2da8580ef4
+DELETE {{api}}637eee7f9dd98093f0fb7d65
