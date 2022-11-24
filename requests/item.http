@@ -1,0 +1,33 @@
+@api = http://localhost:3002/
+
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name":"josue",
+    "color":"rojo",
+    "gas":"gasoline",
+    "year":2022,
+    "description":"super auto",
+    "price":25000
+}
+###
+PUT  {{api}}637c5aaf1012b04ff3878842
+Content-Type: application/json
+
+{
+    "name":"josue MAGICO",
+    "color":"rojo",
+    "gas":"gasoline",
+    "year":2022,
+    "description":"super auto",
+    "price":25000
+}
+###
+GET  {{api}}
+###
+
+GET {{api}}637c5fb7e701be2da8580ef4
+
+###
+DELETE {{api}}637c5fb7e701be2da8580ef4
